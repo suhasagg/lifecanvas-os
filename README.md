@@ -373,14 +373,6 @@ Full matrix: [Integrations](docs/INTEGRATIONS.md).
 
 Details: [Security](docs/SECURITY.md).
 
-## Quality
-
-```bash
-pytest -q                               # offline suite
-ruff check app tests scripts
-python scripts/capture_screenshots.py   # regenerates every screenshot from the running app
-```
-
 ## Documentation
 
 [Architecture](docs/ARCHITECTURE.md) · [Integrations](docs/INTEGRATIONS.md) · [Budget and booking](docs/BOOKING.md) · [Social agents](docs/SOCIAL_AGENTS.md) · [Security](docs/SECURITY.md) · [API](docs/API.md) · [Deployment](docs/DEPLOYMENT.md) · [Evaluation](docs/EVALUATION.md) · [Gallery](docs/GALLERY.md)
