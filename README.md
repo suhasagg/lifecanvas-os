@@ -31,6 +31,32 @@ LifeCanvasOS finds things worth doing, plans them around your tastes and budget,
 | **Agents that plan together** | Members' agents negotiate a meetup that fits everyone, sharing verdicts instead of private budgets or calendars. |
 | **Memory you own** | It learns stated preferences and shows you everything it remembers. Delete any of it. |
 
+## 🎬 Product Demo
+
+[![LifeCanvasOS Product Demo](docs/screenshots/05-today-live.png)](https://drive.google.com/file/d/1m-cV-dWkvhqBiq4r5ZAFxig2POiXan65/view?usp=drivesdk)
+
+### [▶ Watch the Full 10-Minute Product Walkthrough](https://drive.google.com/file/d/1m-cV-dWkvhqBiq4r5ZAFxig2POiXan65/view?usp=drivesdk)
+
+Explore LifeCanvasOS through a narrated, Full HD product walkthrough showcasing conversational AI, intelligent agents, connected applications and end-to-end lifestyle automation.
+
+The demo covers:
+
+- AI Concierge — Conversational queries and source-grounded recommendations.
+- Experiences — Concerts, sports, movies, music and entertainment discovery.
+- Food & Dining — Restaurant discovery and personalized recommendations.
+- Social Agents — Interest matching, agent-to-agent negotiation and collaborative meetup planning.
+- Video Rooms — Private and group video calls.
+- Creator Studio — Research, content generation and multi-platform publishing workflows.
+- Budget Planner — Intelligent activity selection within spending constraints.
+- Travel & Escapes — Destination discovery and personalized trip planning.
+- Multi-Agent Orchestrator — Parallel specialist execution, streaming and persistent checkpoints.
+- Action Center — Human-in-the-loop approvals and execution auditing.
+- Memory & Safety — Personalization, semantic retrieval and AI security.
+- Developer Console — Agent topology, model routing and observability.
+- App Connections — External API integrations and application handoffs.
+> LifeCanvasOS — Your Life. Connected by AI.
+
+
 ## Product tour
 
 ### Today
