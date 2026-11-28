@@ -33,28 +33,27 @@ LifeCanvasOS finds things worth doing, plans them around your tastes and budget,
 
 ## 🎬 Product Demo
 
-[![LifeCanvasOS Product Demo](docs/screenshots/05-today-live.png)](https://drive.google.com/file/d/1m-cV-dWkvhqBiq4r5ZAFxig2POiXan65/view?usp=drivesdk)
+[![LifeCanvasOS Product Demo](docs/screenshots/05-today-live.png)](https://www.loom.com/share/4ccc82bae7a24fa6863eb95d72c5c80d)
 
-### [▶ Watch the Full 10-Minute Product Walkthrough](https://drive.google.com/file/d/1m-cV-dWkvhqBiq4r5ZAFxig2POiXan65/view?usp=drivesdk)
+### [▶ Watch the Full 10-Minute Product Walkthrough on Loom](https://www.loom.com/share/4ccc82bae7a24fa6863eb95d72c5c80d)
 
-Explore LifeCanvasOS through a narrated, Full HD product walkthrough showcasing conversational AI, intelligent agents, connected applications and end-to-end lifestyle automation.
+### Features Demonstrated
 
-The demo covers:
-
-- AI Concierge — Conversational queries and source-grounded recommendations.
-- Experiences — Concerts, sports, movies, music and entertainment discovery.
-- Food & Dining — Restaurant discovery and personalized recommendations.
-- Social Agents — Interest matching, agent-to-agent negotiation and collaborative meetup planning.
-- Video Rooms — Private and group video calls.
-- Creator Studio — Research, content generation and multi-platform publishing workflows.
-- Budget Planner — Intelligent activity selection within spending constraints.
-- Travel & Escapes — Destination discovery and personalized trip planning.
-- Multi-Agent Orchestrator — Parallel specialist execution, streaming and persistent checkpoints.
-- Action Center — Human-in-the-loop approvals and execution auditing.
-- Memory & Safety — Personalization, semantic retrieval and AI security.
-- Developer Console — Agent topology, model routing and observability.
-- App Connections — External API integrations and application handoffs.
-> LifeCanvasOS — Your Life. Connected by AI.
+- **AI Concierge** — Conversational queries, personalized discovery and source-grounded recommendations.
+- **Experiences** — Concerts, sports, movies, music and entertainment discovery.
+- **Food & Dining** — Restaurant discovery, cuisine filters and dietary preferences.
+- **Social Agents** — Interest matching, agent-to-agent negotiation and collaborative meetup planning.
+- **Video Rooms** — Private and group video calls.
+- **Creator Studio** — Automated research, content generation and multi-platform publishing workflows.
+- **Budget Planner** — Intelligent activity optimization within spending constraints.
+- **Travel & Escapes** — Destination discovery and personalized trip planning.
+- **Multi-Agent Orchestrator** — Hierarchical supervision, parallel specialist execution, streaming and persistent checkpoints.
+- **Action Center** — Human-in-the-loop approvals, secure execution and auditing.
+- **Memory & Safety** — Six memory layers, semantic retrieval, personalization and AI security.
+- **Developer Console** — Agent topology, intelligent model routing and execution observability.
+- **App Connections** — External API integrations and application handoffs.
+- **Responsive Experience** — Desktop, tablet and mobile interfaces.
+LifeCanvasOS — Your Life. Connected by AI.
 
 
 ## Product tour
