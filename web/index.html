@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LifeCanvasOS — Every day is an adventure.</title>
+<link rel="icon" href="/static/assets/hero.svg">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div id="auth" class="authwrap hidden"></div>
+<div class="shell hidden" id="shell">
+  <aside>
+    <div class="brand"><div class="logo">✳</div><div>life<span>canvas.</span><small>OS · SUNSHINE EDITION</small></div></div>
+    <div class="navlabel">WORKSPACE</div>
+    <nav id="nav">
+      <button data-page="today" class="active"><i>◈</i> Today</button>
+      <button data-page="assistant"><i>✦</i> AI concierge</button>
+      <button data-page="events"><i>◉</i> Experiences</button>
+      <button data-page="dining"><i>✳</i> Food &amp; dining</button>
+      <button data-page="circles"><i>◎</i> Circles</button>
+      <button data-page="studio"><i>◩</i> Creator studio</button>
+      <button data-page="planner"><i>▦</i> My plans</button>
+    </nav>
+    <div class="navlabel">CONNECTED WORLD</div>
+    <nav id="nav2">
+      <button data-page="orchestra"><i>✧</i> Orchestrator</button>
+      <button data-page="culture"><i>◈</i> Culture &amp; wellness</button>
+      <button data-page="travel"><i>↗</i> Travel &amp; escapes</button>
+      <button data-page="actions"><i>◎</i> Action center <b id="pendingbadge" class="hidden"></b></button>
+      <button data-page="memory"><i>◉</i> Memory &amp; safety</button>
+      <button data-page="developer"><i>⌘</i> Developer view</button>
+      <button data-page="connections"><i>⌘</i> App connections</button>
+    </nav>
+    <div class="sidebottom">
+      <div class="sidecard"><span class="spark">✦</span><strong>Hello, sunshine!<br>Make today yours.</strong><p>A little more wonder in every day.</p></div>
+      <div class="profile"><div class="avatar" id="avatar">LC</div><div><strong id="username">My workspace</strong><small id="useremail">Personal edition</small></div><button class="linkbtn" id="signout" title="Sign out">Sign out</button></div>
+    </div>
+  </aside>
+  <main>
+    <header>
+      <div class="breadcrumb">Workspace <span>/</span> <strong id="crumb">Today</strong></div>
+      <div class="topright">
+        <button class="mode" id="mode" data-go="connections" title="Provider status"><i></i> <span id="modetext">Checking providers…</span></button>
+        <label class="location"><input id="city" aria-label="City" placeholder="City"><select id="country" aria-label="Country"><option value="">—</option><option value="IN">IN</option><option value="US">US</option><option value="GB">GB</option><option value="AE">AE</option><option value="SG">SG</option><option value="AU">AU</option><option value="CA">CA</option><option value="DE">DE</option><option value="FR">FR</option><option value="JP">JP</option></select></label>
+        <button class="round" id="help" title="How LifeCanvasOS works">?</button>
+      </div>
+    </header>
+    <div id="view" tabindex="-1"></div>
+    <footer>LifeCanvasOS / Personal lifestyle operating system <span>Live sources with attribution · Approval before every external action</span></footer>
+  </main>
+</div>
+<div id="drawer" class="drawer hidden" role="dialog" aria-modal="true" aria-label="Details"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

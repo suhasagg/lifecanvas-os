@@ -1,0 +1,40 @@
+[project]
+name = "lifecanvas-os"
+version = "1.0.0"
+description = "LifeCanvasOS — a universal agentic lifestyle operating system built on LangGraph"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "httpx>=0.27",
+  "pydantic>=2.7",
+  "langgraph>=1.0",
+  "langgraph-checkpoint-sqlite>=3.0",
+  "aiosqlite>=0.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.6", "playwright>=1.45"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 220
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S"]
+ignore = ["E501", "E731", "S101", "S311", "S608", "B008", "S110", "UP017", "B905", "UP042"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S", "E741"]
+"scripts/*" = ["S"]
